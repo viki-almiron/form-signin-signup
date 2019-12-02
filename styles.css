@@ -5,3 +5,120 @@ html, body {
   line-height: 24px;
   background-color: #f5f5f5;
 }
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: #EBD0D3;
+  margin: 0 auto;
+}
+
+.img {
+  width: 500px;
+  height: 400px;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  width: 50%;
+  background-color: white;  
+  padding-left: 80px;
+  color:#4a4a4a
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.subtitle {
+  font-size: 32px; 
+  margin-top: 0px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: black;
+  font-weight: 600;
+}
+
+.input {
+  border-color: #DBDBDB;
+  height: 40px;
+  max-width: 80%;
+  font-size: 1rem;
+}
+
+.input:hover {
+  border-color: #B5B5B5
+}
+
+.input:focus {
+  border-color: #3273DC
+}
+
+.input:invalid {
+  border-color: #FF0000
+}
+
+.input:focus {
+  border-color:#00D1B2
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.button {
+  background-color: #00D1B2;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
+.buton:hover {
+  background-color: #00C4A7;
+}
+
+.button:active {
+  background-color: #00B89C;
+}
+
+.link {
+  color: #3273DC;
+}
+
+.link:hover {
+  color: #363636;
+}
