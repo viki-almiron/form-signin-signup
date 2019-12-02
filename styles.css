@@ -67,19 +67,11 @@ html, body {
 }
 
 .input:hover {
-  border-color: #B5B5B5
+  border-color: #B5B5B5;
 }
 
 .input:focus {
-  border-color: #3273DC
-}
-
-.input:invalid {
-  border-color: #FF0000
-}
-
-.input:focus {
-  border-color:#00D1B2
+  border-color: #3273DC;
 }
 
 .check {
@@ -121,4 +113,12 @@ html, body {
 
 .link:hover {
   color: #363636;
+}
+
+input:invalid:not(:placeholder-shown){
+  border: 1px solid red;
+}
+
+input:valid:not(:placeholder-shown){
+  border: 1px solid #00d1b2;
 }
